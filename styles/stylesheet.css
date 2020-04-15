@@ -1,0 +1,69 @@
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+#map { position:absolute; top:0; bottom:0; width:100%; }
+
+#map{
+	position: absolute;
+	
+	height: 50%;
+	width: 90%;
+	margin-top: 5%;
+	margin-left: 3%;
+
+}
+
+
+
+h1{
+	font-weight: normal;
+	text-align: center;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+.buttonGrid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 5%;
+
+
+}
+
+button{
+	border: none;
+	height: 75px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+@media only screen and (min-width: 1024px) {
+	/* For tablet: */
+
+	#map{
+		height: 70%;
+		margin-left: 5%;
+	}
+
+}
+
+@media only screen and (min-width: 1342px) {
+	/* For desktop small: */
+
+	.buttonGrid{
+		grid-gap: 2%;
+	}
+
+	button{
+		font-size: 1.5em;
+	}
+}
+
+@media only screen and (min-width: 1500px){
+	/* For desktop groot: */
+
+	.buttonGrid{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+
+}
+
